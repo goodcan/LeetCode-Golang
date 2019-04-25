@@ -3,8 +3,6 @@
 // @File     : 674.go
 // @Function : 最长连续递增序列
 
-package QuestionBank
-
 /*
 Question:
 给定一个未经排序的整数数组，找到最长且连续的的递增序列。
@@ -22,6 +20,8 @@ Example 2:
 
 Note：数组长度不会超过10000。
 */
+
+package QuestionBank
 
 func findLengthOfLCIS(nums []int) int {
 	l := len(nums)

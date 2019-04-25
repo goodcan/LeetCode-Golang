@@ -1,3 +1,8 @@
+// @Time     : 2019/4/25 15:07
+// @Author   : cancan
+// @File     : 674.go
+// @Function : 最长连续递增序列
+
 package QuestionBank
 
 /*

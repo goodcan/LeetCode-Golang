@@ -14,9 +14,9 @@ func Test_674(t *testing.T) {
 		{[]int{1, 2, 3, 4}, 4},
 	}
 
-	for _, tt := range tests {
-		if findLengthOfLCIS(tt.nums) != tt.ans {
-			t.Errorf("failure nums %v ans %d", tt.nums, tt.ans)
+	for _, test := range tests {
+		if findLengthOfLCIS(test.nums) != test.ans {
+			t.Errorf("failure nums %v ans %d", test.nums, test.ans)
 		}
 	}
 }

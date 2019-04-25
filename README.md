@@ -5,4 +5,4 @@
 ## 题库
 > 编号对应 LeetCode 题号
 
-674 [最长连续递增序列](./QuestionBook/674.go)
+674 [最长连续递增序列](./QuestionBank/674.go)

@@ -8,6 +8,7 @@
 1 [两数之和](./QuestionBank/1.go)  
 2 [两数相加](./QuestionBank/2.go)  
 3 [无重复字符的最长子串](./QuestionBank/3.go)  
+4 [寻找两个有序数组的中位数](./QuestionBank/4.go)  
 674 [最长连续递增序列](./QuestionBank/674.go)  
 
 ## 声明

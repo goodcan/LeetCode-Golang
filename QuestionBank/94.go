@@ -28,9 +28,9 @@ func inOrderTraversal(root *TreeNode) []int {
 		return ans
 	}
 
-	ans = append(ans, inorderTraversal(root.Left)...)
+	ans = append(ans, inOrderTraversal(root.Left)...)
 	ans = append(ans, root.Val)
-	ans = append(ans, inorderTraversal(root.Right)...)
+	ans = append(ans, inOrderTraversal(root.Right)...)
 
 	return ans
 }

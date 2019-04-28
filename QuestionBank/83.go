@@ -25,7 +25,6 @@ func deleteDuplicates(head *ListNode) *ListNode {
 
 	for node != nil {
 		n, ok := temp[node.Val]
-
 		if ok {
 			node = node.Next
 			n.Next = node

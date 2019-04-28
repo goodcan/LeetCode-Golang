@@ -32,17 +32,16 @@ func myPow(x float64, n int) float64 {
 		n = -n
 		x = 1 / x
 	}
-	var res float64 = 1
+	ans := 1.0
 
 	for n > 0 {
 		if n%2 == 1 {
-			res *= x
+			ans *= x
 		}
 
 		x *= x
-
 		n /= 2
 	}
 
-	return res
+	return ans
 }

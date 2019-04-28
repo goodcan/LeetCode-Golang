@@ -10,6 +10,7 @@
 3 [无重复字符的最长子串](./QuestionBank/3.go)  
 4 [寻找两个有序数组的中位数](./QuestionBank/4.go)  
 50 [Pow(x, n)](./QuestionBank/50.go)  
+75 [颜色分类](./QuestionBank/75.go)  
 674 [最长连续递增序列](./QuestionBank/674.go)  
 
 ## 声明

@@ -21,7 +21,7 @@ Example:
 
 package QuestionBank
 
-func inorderTraversal(root *TreeNode) []int {
+func inOrderTraversal(root *TreeNode) []int {
 	ans := []int{}
 
 	if root == nil {

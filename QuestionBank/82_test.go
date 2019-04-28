@@ -27,7 +27,7 @@ func Test_82(t *testing.T) {
 
 	for _, test := range tests {
 		if !utils.IntSliceEqual(
-			SinglyLinkList2Slice(deleteDuplicates(test.head)),
+			SinglyLinkList2Slice(deleteDuplicatesII(test.head)),
 			SinglyLinkList2Slice(test.ans),
 		) {
 			t.Errorf("failure head %v ans %v",

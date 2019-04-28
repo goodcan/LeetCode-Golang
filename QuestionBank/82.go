@@ -18,7 +18,7 @@ Example 2:
 
 package QuestionBank
 
-func deleteDuplicates(head *ListNode) *ListNode {
+func deleteDuplicatesII(head *ListNode) *ListNode {
 	temp := make(map[int]*ListNode)
 	prev := new(ListNode)
 

@@ -36,3 +36,49 @@ func SinglyLinkList2Slice(l *ListNode) []int {
 
 	return ret
 }
+
+// 二叉树
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+func InitTree(nums []interface{}) *TreeNode {
+	l := len(nums)
+
+	if l == 0 {
+		return nil
+	}
+
+	root := &TreeNode{Val: nums[0].(int)}
+	nodeQueue := []*TreeNode{root}
+	front := 0
+	index := 1
+
+	for index < l {
+		node := nodeQueue[front]
+		front++
+
+		item := nums[index]
+		index++
+
+		if item != nil {
+			node.Left = &TreeNode{Val: item.(int)}
+			nodeQueue = append(nodeQueue, node.Left)
+		}
+
+		if index >= l {
+			break
+		}
+
+		item = nums[index]
+		index++
+		if item != nil {
+			node.Right = &TreeNode{Val: item.(int)}
+			nodeQueue = append(nodeQueue, node.Right)
+		}
+	}
+
+	return root
+}

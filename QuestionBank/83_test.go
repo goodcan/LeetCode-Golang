@@ -1,13 +1,14 @@
 // @Time     : 2019/4/28 14:36
 // @Author   : cancan
 // @File     : 83_test.go
-// @Function :
+// @Function : 删除排序链表中的重复元素 test
 
 package QuestionBank
 
 import (
-	"LeetCode-Golang/utils"
 	"testing"
+
+	"LeetCode-Golang/utils"
 )
 
 func Test_83(t *testing.T) {

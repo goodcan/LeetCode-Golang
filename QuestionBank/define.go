@@ -82,3 +82,17 @@ func InitTree(nums []interface{}) *TreeNode {
 
 	return root
 }
+
+func Tree2Slice(root *TreeNode) []int {
+	ans := []int{}
+
+	if root == nil {
+		return ans
+	}
+
+	ans = append(ans, root.Val)
+	ans = append(ans, Tree2Slice(root.Left)...)
+	ans = append(ans, Tree2Slice(root.Right)...)
+
+	return ans
+}

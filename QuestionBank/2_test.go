@@ -44,7 +44,11 @@ func Test_2(t *testing.T) {
 			SinglyLinkList2Slice(addTwoNumbers(test.l1, test.l2)),
 			SinglyLinkList2Slice(test.ans),
 		) {
-			t.Errorf("failure l1 %v l2 %v asn %v", test.l1, test.l2, test.ans)
+			t.Errorf("failure l1 %v l2 %v asn %v",
+				SinglyLinkList2Slice(test.l1),
+				SinglyLinkList2Slice(test.l2),
+				SinglyLinkList2Slice(test.ans),
+			)
 		}
 	}
 }

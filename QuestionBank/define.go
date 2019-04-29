@@ -5,6 +5,8 @@
 
 package QuestionBank
 
+import "LeetCode-Golang/utils"
+
 // 链表
 type ListNode struct {
 	Val  int
@@ -35,6 +37,10 @@ func SinglyLinkList2Slice(l *ListNode) []int {
 	}
 
 	return ret
+}
+
+func SinglyLinkListEqual(l1, l2 *ListNode) bool {
+	return utils.IntSliceEqual(SinglyLinkList2Slice(l1), SinglyLinkList2Slice(l2))
 }
 
 // 二叉树

@@ -5,9 +5,7 @@
 
 package QuestionBank
 
-import (
-	"testing"
-)
+import "testing"
 
 func Test_2(t *testing.T) {
 	tests := []struct {

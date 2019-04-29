@@ -5,11 +5,7 @@
 
 package QuestionBank
 
-import (
-	"testing"
-
-	"LeetCode-Golang/utils"
-)
+import "testing"
 
 func Test_83(t *testing.T) {
 	tests := []struct {
@@ -27,10 +23,7 @@ func Test_83(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if !utils.IntSliceEqual(
-			SinglyLinkList2Slice(deleteDuplicates(test.head)),
-			SinglyLinkList2Slice(test.ans),
-		) {
+		if !SinglyLinkListEqual(deleteDuplicates(test.head), test.ans) {
 			t.Errorf("failure head %v ans %v",
 				SinglyLinkList2Slice(test.head),
 				SinglyLinkList2Slice(test.ans),

@@ -7,8 +7,6 @@ package QuestionBank
 
 import (
 	"testing"
-
-	"LeetCode-Golang/utils"
 )
 
 func Test_2(t *testing.T) {
@@ -40,10 +38,7 @@ func Test_2(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if !utils.IntSliceEqual(
-			SinglyLinkList2Slice(addTwoNumbers(test.l1, test.l2)),
-			SinglyLinkList2Slice(test.ans),
-		) {
+		if !SinglyLinkListEqual(addTwoNumbers(test.l1, test.l2), test.ans) {
 			t.Errorf("failure l1 %v l2 %v asn %v",
 				SinglyLinkList2Slice(test.l1),
 				SinglyLinkList2Slice(test.l2),

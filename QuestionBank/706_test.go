@@ -5,24 +5,40 @@
 
 package QuestionBank
 
-import "testing"
+import (
+	"testing"
+
+	"LeetCode-Golang/utils"
+)
 
 func Test_706(t *testing.T) {
-	hashMap := Constructor706()
-	hashMap.Put(1, 1)
-	hashMap.Put(2, 2)
-	if hashMap.Get(1) != 1 {
-		t.Error("Get method error")
+	tests := []struct {
+		Id      int
+		methods []string
+		params  [][]interface{}
+		ans     []interface{}
+	}{
+		{
+			0,
+			[]string{"MyHashMap", "Put", "Put", "Get", "Get", "Put", "Get", "Remove", "Get"},
+			[][]interface{}{{}, {1, 1}, {2, 2}, {1}, {3}, {2, 1}, {2}, {2}, {2}},
+			[]interface{}{nil, nil, nil, 1, -1, nil, 1, nil, -1},
+		},
 	}
-	if hashMap.Get(3) != -1 {
-		t.Error("Get method error")
+
+	s2m := utils.NewString2Method()
+	var hashMap MyHashMap
+
+	for _, test := range tests {
+		for i, method := range test.methods {
+			if i == 0 {
+				hashMap = Constructor706()
+			} else {
+				if !s2m.Check(s2m.Run(&hashMap, method, test.params[i]...), test.ans[i]) {
+					t.Errorf("failure id %d", test.Id)
+				}
+			}
+		}
 	}
-	hashMap.Put(2, 1)
-	if hashMap.Get(2) != 1 {
-		t.Error("Put method error")
-	}
-	hashMap.Remove(2)
-	if hashMap.Get(2) != -1 {
-		t.Error("Remove method error")
-	}
+
 }

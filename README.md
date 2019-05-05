@@ -22,6 +22,7 @@
 442 [数组中重复的数据](./QuestionBank/442.go)  
 509 [斐波那契数](./QuestionBank/509.go)  
 706 [设计哈希映射](./QuestionBank/706.go)  
+771 [宝石与石头](./QuestionBank/771.go)  
 674 [最长连续递增序列](./QuestionBank/674.go)  
 
 ## 声明

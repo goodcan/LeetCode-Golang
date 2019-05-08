@@ -47,5 +47,5 @@ func removeElement(nums []int, val int) int {
 			start++
 		}
 	}
-	return len(nums)
+	return l
 }

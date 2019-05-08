@@ -10,6 +10,7 @@
 3 [无重复字符的最长子串](./QuestionBank/3.go)  
 4 [寻找两个有序数组的中位数](./QuestionBank/4.go)  
 26 [删除排序数组中的重复项](./QuestionBank/28.go)  
+27 [移除元素](./QuestionBank/27.go)  
 43 [字符串相乘](./QuestionBank/43.go)  
 50 [Pow(x, n)](./QuestionBank/50.go)  
 58 [最后一个单词的长度](./QuestionBank/58.go)  

@@ -1,7 +1,9 @@
-// @Time     : 2019/4/26 11:49
-// @Author   : cancan
-// @File     : 4.go
-// @Function : 寻找两个有序数组的中位数
+/*
+ * @Time     : 2019/4/26 11:49
+ * @Author   : cancan
+ * @File     : 4.go
+ * @Function : 寻找两个有序数组的中位数
+ */
 
 /*
  * Question:

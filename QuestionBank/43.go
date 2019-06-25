@@ -1,7 +1,9 @@
-// @Time     : 2019/5/7 16:16
-// @Author   : cancan
-// @File     : 43.go
-// @Function : 字符串相乘
+/*
+ * @Time     : 2019/5/7 16:16
+ * @Author   : cancan
+ * @File     : 43.go
+ * @Function : 字符串相乘
+ */
 
 /*
  * Question:

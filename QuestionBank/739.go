@@ -13,19 +13,15 @@ Question:
 package QuestionBank
 
 func dailyTemperatures(T []int) []int {
-	ret := []int{}
+	ret := make([]int, len(T))
+	stack := []int{}
 
-	tmp := 0
-
-	for i, v := range T {
-		for ii, vv := range T[i+1:] {
-			if vv > v {
-				tmp = ii + 1
-				break
-			}
+	for i := 0; i < len(T); i++ {
+		for len(stack) > 0 && T[i] > T[stack[len(stack)-1]] {
+			ret[stack[len(stack)-1]] = i - stack[len(stack)-1]
+			stack = stack[:len(stack)-1]
 		}
-		ret = append(ret, tmp)
-		tmp = 0
+		stack = append(stack, i)
 	}
 
 	return ret

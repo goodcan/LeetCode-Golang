@@ -1,7 +1,9 @@
-// @Time     : 2019/5/7 17:58
-// @Author   : cancan
-// @File     : 58.go
-// @Function : 最后一个单词的长度
+/*
+ * @Time     : 2019/5/7 17:58
+ * @Author   : cancan
+ * @File     : 58.go
+ * @Function : 最后一个单词的长度
+ */
 
 /*
  * Question:

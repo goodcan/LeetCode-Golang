@@ -1,7 +1,9 @@
-// @Time     : 2019/4/28 16:04
-// @Author   : cancan
-// @File     : 100.go
-// @Function : 相同的树
+/*
+ * @Time     : 2019/4/28 16:04
+ * @Author   : cancan
+ * @File     : 100.go
+ * @Function : 相同的树
+ */
 
 /*
  * 给定两个二叉树，编写一个函数来检验它们是否相同。

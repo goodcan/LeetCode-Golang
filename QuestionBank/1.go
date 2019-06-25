@@ -1,7 +1,9 @@
-// @Time     : 2019/4/25 15:38
-// @Author   : cancan
-// @File     : 1.go
-// @Function : 两数之和
+/*
+ * @Time     : 2019/4/25 15:38
+ * @Author   : cancan
+ * @File     : 1.go
+ * @Function : 两数之和
+ */
 
 /*
  * Question:

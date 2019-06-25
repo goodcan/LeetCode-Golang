@@ -1,7 +1,9 @@
-// @Time     : 2019/4/28 15:35
-// @Author   : cancan
-// @File     : 98.go
-// @Function : 验证二叉搜索树
+/*
+ * @Time     : 2019/4/28 15:35
+ * @Author   : cancan
+ * @File     : 98.go
+ * @Function : 验证二叉搜索树
+ */
 
 /*
  * Question:

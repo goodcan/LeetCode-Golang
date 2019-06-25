@@ -1,7 +1,9 @@
-// @Time     : 2019/4/29 16:27
-// @Author   : cancan
-// @File     : 136.go
-// @Function : 只出现一次的数字
+/*
+ * @Time     : 2019/4/29 16:27
+ * @Author   : cancan
+ * @File     : 136.go
+ * @Function : 只出现一次的数字
+ */
 
 /*
  * Question:

@@ -1,7 +1,9 @@
-// @Time     : 2019/4/28 10:10
-// @Author   : cancan
-// @File     : 50.go
-// @Function : Pow(x, n)
+/*
+ * @Time     : 2019/4/28 10:10
+ * @Author   : cancan
+ * @File     : 50.go
+ * @Function : Pow(x, n)
+ */
 
 /*
  * Question:

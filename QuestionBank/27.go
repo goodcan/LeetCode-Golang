@@ -1,7 +1,9 @@
-// @Time     : 2019/5/8 14:35
-// @Author   : cancan
-// @File     : 27.go
-// @Function : 移除元素
+/*
+ * @Time     : 2019/5/8 14:35
+ * @Author   : cancan
+ * @File     : 27.go
+ * @Function : 移除元素
+ */
 
 /*
  * Question:

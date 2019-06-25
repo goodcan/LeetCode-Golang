@@ -1,7 +1,9 @@
-// @Time     : 2019/4/25 19:10
-// @Author   : cancan
-// @File     : 2.go
-// @Function : 两数相加
+/*
+ * @Time     : 2019/4/25 19:10
+ * @Author   : cancan
+ * @File     : 2.go
+ * @Function : 两数相加
+ */
 
 /*
  * Question:

@@ -1,7 +1,9 @@
-// @Time     : 2019/4/28 11:11
-// @Author   : cancan
-// @File     : 75.go
-// @Function : 颜色分类
+/*
+ * @Time     : 2019/4/28 11:11
+ * @Author   : cancan
+ * @File     : 75.go
+ * @Function : 颜色分类
+ */
 
 /*
  * Question:

@@ -6,8 +6,9 @@
 package QuestionBank
 
 import (
-	"LeetCode-Golang/utils"
 	"testing"
+
+	"LeetCode-Golang/utils"
 )
 
 func Test_commonChars(t *testing.T) {
@@ -21,7 +22,7 @@ func Test_commonChars(t *testing.T) {
 
 	for _, test := range tests {
 		if utils.StringSliceEqual(commonChars(test.A), test.ans) {
-			t.Error("failure A %v ans %v", test.A, test.ans)
+			t.Errorf("failure A %v ans %v", test.A, test.ans)
 		}
 	}
 

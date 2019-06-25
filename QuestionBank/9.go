@@ -1,7 +1,9 @@
-// @Time     : 2019/5/10 16:07
-// @Author   : cancan
-// @File     : 9.go
-// @Function : 回文数
+/*
+ * @Time     : 2019/5/10 16:07
+ * @Author   : cancan
+ * @File     : 9.go
+ * @Function : 回文数
+ */
 
 /*
  * Question:

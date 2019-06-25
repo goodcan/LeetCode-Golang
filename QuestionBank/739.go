@@ -1,7 +1,9 @@
-// @Time     : 2019/6/25 15:40
-// @Author   : cancan
-// @File     : 739.go
-// @Function : 每日温度
+/*
+ * @Time     : 2019/6/25 15:40
+ * @Author   : cancan
+ * @File     : 739.go
+ * @Function : 每日温度
+ */
 
 /*
  * Question:

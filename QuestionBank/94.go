@@ -1,7 +1,9 @@
-// @Time     : 2019/4/28 14:47
-// @Author   : cancan
-// @File     : 94.go
-// @Function : 二叉树的中序遍历
+/*
+ * @Time     : 2019/4/28 14:47
+ * @Author   : cancan
+ * @File     : 94.go
+ * @Function : 二叉树的中序遍历
+ */
 
 /*
  * Question:

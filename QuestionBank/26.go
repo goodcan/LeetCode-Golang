@@ -1,7 +1,9 @@
-// @Time     : 2019/5/8 11:20
-// @Author   : cancan
-// @File     : 26.go
-// @Function : 删除排序数组中的重复项
+/*
+ * @Time     : 2019/5/8 11:20
+ * @Author   : cancan
+ * @File     : 26.go
+ * @Function : 删除排序数组中的重复项
+ */
 
 /*
  * Question:

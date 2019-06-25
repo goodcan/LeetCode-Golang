@@ -1,7 +1,9 @@
-// @Time     : 2019/4/30 15:21
-// @Author   : cancan
-// @File     : struct.go
-// @Function : 接口类工具
+/*
+ * @Time     : 2019/4/30 15:21
+ * @Author   : cancan
+ * @File     : struct.go
+ * @Function : 接口类工具
+ */
 
 package utils
 

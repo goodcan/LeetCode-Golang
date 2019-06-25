@@ -1,7 +1,9 @@
-// @Time     : 2019/4/25 15:53
-// @Author   : cancan
-// @File     : slice.go
-// @Function : 切片相关工具
+/*
+ * @Time     : 2019/4/25 15:53
+ * @Author   : cancan
+ * @File     : slice.go
+ * @Function : 切片相关工具
+ */
 
 package utils
 

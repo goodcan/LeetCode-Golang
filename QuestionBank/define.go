@@ -1,7 +1,9 @@
-// @Time     : 2019/4/25 19:12
-// @Author   : cancan
-// @File     : define.go
-// @Function : 定义类型
+/*
+ * @Time     : 2019/4/25 19:12
+ * @Author   : cancan
+ * @File     : define.go
+ * @Function : 定义类型
+ */
 
 package QuestionBank
 

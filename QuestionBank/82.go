@@ -1,7 +1,9 @@
-// @Time     : 2019/4/28 11:22
-// @Author   : cancan
-// @File     : 82.go
-// @Function : 删除排序链表中的重复元素 II
+/*
+ * @Time     : 2019/4/28 11:22
+ * @Author   : cancan
+ * @File     : 82.go
+ * @Function : 删除排序链表中的重复元素 II
+ */
 
 /*
  *Question:

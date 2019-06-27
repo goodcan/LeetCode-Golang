@@ -14,13 +14,11 @@ import (
 
 func Test_232(t *testing.T) {
 	tests := []struct {
-		Id      int
 		methods []string
 		params  [][]interface{}
 		ans     []interface{}
 	}{
 		{
-			0,
 			[]string{"MyQueue", "Push", "Push", "Peek", "Pop", "Empty"},
 			[][]interface{}{{}, {1}, {2}, {}, {}, {}},
 			[]interface{}{nil, nil, nil, 1, 1, false},
@@ -30,13 +28,13 @@ func Test_232(t *testing.T) {
 	s2m := utils.NewString2Method()
 	var MyQueue MyQueue
 
-	for _, test := range tests {
+	for index, test := range tests {
 		for i, method := range test.methods {
 			if i == 0 {
 				MyQueue = Constructor232()
 			} else {
 				if !s2m.Check(s2m.Run(&MyQueue, method, test.params[i]...), test.ans[i]) {
-					t.Errorf("failure id %d", test.Id)
+					t.Errorf("failure id %d", index)
 				}
 			}
 		}

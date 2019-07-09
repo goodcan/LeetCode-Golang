@@ -20,7 +20,7 @@ func Test_1108(t *testing.T) {
 
 	for _, test := range tests {
 		if defangIPaddr(test.address) != test.ans {
-			t.Errorf("failure address %s ans %s \n", test.address, test.ans)
+			t.Errorf("failure address %s ans %s", test.address, test.ans)
 		}
 	}
 }

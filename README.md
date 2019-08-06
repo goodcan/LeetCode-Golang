@@ -22,6 +22,7 @@
 94 [二叉树的中序遍历](./QuestionBank/94.go)  
 98 [验证二叉搜索树](./QuestionBank/98.go)  
 100 [相同的树](./QuestionBank/100.go)  
+125 [验证回文串](./QuestionBank/125.go)  
 136 [只出现一次的数字](./QuestionBank/136.go)  
 137 [只出现一次的数字 II](./QuestionBank/137.go)  
 206 [反转链表](./QuestionBank/206.go)  

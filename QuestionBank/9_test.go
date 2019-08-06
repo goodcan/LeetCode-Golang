@@ -18,7 +18,7 @@ func Test_9(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if isPalindrome(test.x) != test.ans {
+		if isPalindrome9(test.x) != test.ans {
 			t.Errorf("failure x %d ans %v", test.x, test.ans)
 		}
 	}

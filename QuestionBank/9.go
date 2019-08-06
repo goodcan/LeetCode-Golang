@@ -31,7 +31,7 @@ package QuestionBank
 
 import "strconv"
 
-func isPalindrome(x int) bool {
+func isPalindrome9(x int) bool {
 	if x < 0 {
 		return false
 	}

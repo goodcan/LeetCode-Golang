@@ -18,7 +18,7 @@
 
 package QuestionBank
 
-func twoSum(nums []int, target int) []int {
+func twoSum1(nums []int, target int) []int {
 	t := make(map[int]int)
 
 	for i, v := range nums {

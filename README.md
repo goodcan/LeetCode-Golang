@@ -42,6 +42,7 @@
 771 [宝石与石头](./QuestionBank/771.go)  
 674 [最长连续递增序列](./QuestionBank/674.go)  
 876 [链表的中间结点](./QuestionBank/876.go)  
+897 [递增顺序查找树](./QuestionBank/897.go)  
 1002 [查找常用字符](./QuestionBank/1002.go)  
 1051 [高度检查器](./QuestionBank/1051.go)  
 1108 [IP 地址无效化](./QuestionBank/1108.go)  

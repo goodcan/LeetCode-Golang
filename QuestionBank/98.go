@@ -35,7 +35,7 @@
 package QuestionBank
 
 func isValidBST(root *TreeNode) bool {
-	list := traversal(root)
+	list := traversal98(root)
 
 	for i := 0; i < len(list)-1; i++ {
 		if list[i] >= list[i+1] {
@@ -46,16 +46,16 @@ func isValidBST(root *TreeNode) bool {
 	return true
 }
 
-func traversal(root *TreeNode) []int {
+func traversal98(root *TreeNode) []int {
 	ans := []int{}
 
 	if root == nil {
 		return ans
 	}
 
-	ans = append(ans, traversal(root.Left)...)
+	ans = append(ans, traversal98(root.Left)...)
 	ans = append(ans, root.Val)
-	ans = append(ans, traversal(root.Right)...)
+	ans = append(ans, traversal98(root.Right)...)
 
 	return ans
 }

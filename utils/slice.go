@@ -7,53 +7,30 @@
 
 package utils
 
-func IntSliceEqual(a, b []int) bool {
-	if len(a) != len(b) {
+import (
+	"reflect"
+)
+
+func SliceEqual(a, b interface{}) bool {
+	v1 := reflect.ValueOf(a)
+	v2 := reflect.ValueOf(b)
+
+	if v1.Kind() != reflect.Slice || v2.Kind() != reflect.Slice {
 		return false
 	}
 
-	if (a == nil) != (b == nil) {
+	if v1.IsNil() != v2.IsNil() {
 		return false
 	}
 
-	for i, v := range a {
-		if b[i] != v {
-			return false
-		}
-	}
-
-	return true
-}
-
-func StringSliceEqual(a, b []string) bool {
-	if len(a) != len(b) {
+	if v1.Len() != v2.Len() {
 		return false
 	}
 
-	if (a == nil) != (b == nil) {
-		return false
-	}
-
-	for i, v := range a {
-		if b[i] != v {
-			return false
-		}
-	}
-
-	return true
-}
-
-func ByteSliceEqual(a, b []byte) bool {
-	if len(a) != len(b) {
-		return false
-	}
-
-	if (a == nil) != (b == nil) {
-		return false
-	}
-
-	for i, v := range a {
-		if b[i] != v {
+	for i := 0; i < v1.Len(); i++ {
+		e1 := v1.Index(i)
+		e2 := v2.Index(i)
+		if e1.Interface() != e2.Interface() {
 			return false
 		}
 	}

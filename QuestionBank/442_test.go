@@ -20,7 +20,7 @@ func Test_442(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if !utils.IntSliceEqual(findDuplicates(test.nums), test.ans) {
+		if !utils.SliceEqual(findDuplicates(test.nums), test.ans) {
 			t.Errorf("failure nums %v ans %v", test.nums, test.ans)
 		}
 	}

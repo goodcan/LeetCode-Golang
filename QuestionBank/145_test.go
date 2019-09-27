@@ -24,7 +24,7 @@ func Test_145(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if !utils.IntSliceEqual(postorderTraversal(test.root), test.ans) {
+		if !utils.SliceEqual(postorderTraversal(test.root), test.ans) {
 			t.Errorf("failure root %v ans %v", test.root, test.ans)
 		}
 	}

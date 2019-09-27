@@ -32,11 +32,8 @@ func Test_100(t *testing.T) {
 
 	for _, test := range tests {
 		if isSameTree(test.p, test.q) != test.ans {
-			t.Errorf("failure p %+v q %+v ans %v",
-				Tree2Slice(test.p),
-				Tree2Slice(test.q),
-				test.ans,
-			)
+			t.Errorf("failure p %v q %v ans %v",
+				test.p, test.q, test.ans)
 		}
 	}
 }

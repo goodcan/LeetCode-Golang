@@ -24,7 +24,7 @@ func Test_283(t *testing.T) {
 
 	for _, test := range tests {
 		moveZeroes(test.nums)
-		if !utils.IntSliceEqual(test.nums, test.ans) {
+		if !utils.SliceEqual(test.nums, test.ans) {
 			t.Errorf("failure nums %v ans %v", test.nums, test.ans)
 		}
 	}

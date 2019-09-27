@@ -16,12 +16,12 @@ func Test_commonChars(t *testing.T) {
 		A   []string
 		ans []string
 	}{
-		{[]string{"bella", "label", "roller"}, []string{"e", "l", "l"}},
-		{[]string{"cool", "lock", "cook"}, []string{"c", "o"}},
+		{[]string{"bella", "label", "roller"}, []string{"l", "l", "e"}},
+		{[]string{"cool", "lock", "cook"}, []string{"o", "c"}},
 	}
 
 	for _, test := range tests {
-		if utils.StringSliceEqual(commonChars(test.A), test.ans) {
+		if utils.SliceEqual(commonChars(test.A), test.ans) {
 			t.Errorf("failure A %v ans %v", test.A, test.ans)
 		}
 	}

@@ -20,7 +20,7 @@ func Test_T39(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if !utils.IntSliceEqual(dailyTemperatures(test.T), test.ans) {
+		if !utils.SliceEqual(dailyTemperatures(test.T), test.ans) {
 			t.Errorf("failure T %v ans %v", test.T, test.ans)
 		}
 	}

@@ -8,8 +8,9 @@
 package QuestionBank
 
 import (
-	"LeetCode-Golang/utils"
 	"testing"
+
+	"LeetCode-Golang/utils"
 )
 
 func Test_144(t *testing.T) {
@@ -24,7 +25,7 @@ func Test_144(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if !utils.IntSliceEqual(preorderTraversal(test.root), test.ans) {
+		if !utils.SliceEqual(preorderTraversal(test.root), test.ans) {
 			t.Errorf("failure root %v ans %v", test.root, test.ans)
 		}
 	}

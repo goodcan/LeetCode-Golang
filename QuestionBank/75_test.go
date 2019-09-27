@@ -21,7 +21,7 @@ func Test_75(t *testing.T) {
 
 	for _, test := range tests {
 		sortColors(test.nums)
-		if !utils.IntSliceEqual(test.nums, test.ans) {
+		if !utils.SliceEqual(test.nums, test.ans) {
 			t.Errorf("failure nums %v ans %v", test.nums, test.ans)
 		}
 	}

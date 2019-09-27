@@ -42,7 +42,7 @@ func SinglyLinkList2Slice(l *ListNode) []int {
 }
 
 func SinglyLinkListEqual(l1, l2 *ListNode) bool {
-	return utils.IntSliceEqual(SinglyLinkList2Slice(l1), SinglyLinkList2Slice(l2))
+	return utils.SliceEqual(SinglyLinkList2Slice(l1), SinglyLinkList2Slice(l2))
 }
 
 // 二叉树
@@ -103,4 +103,8 @@ func Tree2Slice(root *TreeNode) []int {
 	ans = append(ans, Tree2Slice(root.Right)...)
 
 	return ans
+}
+
+func TreeEqual(t1, t2 *TreeNode) bool {
+	return utils.SliceEqual(Tree2Slice(t1), Tree2Slice(t2))
 }

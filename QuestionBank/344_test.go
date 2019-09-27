@@ -24,7 +24,7 @@ func Test_344(t *testing.T) {
 
 	for _, test := range tests {
 		reverseString(test.s)
-		if !utils.ByteSliceEqual(test.s, test.ans) {
+		if !utils.SliceEqual(test.s, test.ans) {
 			t.Errorf("failure s %v ans %v", test.s, test.ans)
 		}
 	}

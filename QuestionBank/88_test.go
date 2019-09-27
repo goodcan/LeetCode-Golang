@@ -8,8 +8,9 @@
 package QuestionBank
 
 import (
-	"LeetCode-Golang/utils"
 	"testing"
+
+	"LeetCode-Golang/utils"
 )
 
 func Test_88(t *testing.T) {
@@ -31,7 +32,7 @@ func Test_88(t *testing.T) {
 
 	for _, test := range tests {
 		merge(test.nums1, test.m, test.nums2, test.n)
-		if !utils.IntSliceEqual(test.nums1, test.ans) {
+		if !utils.SliceEqual(test.nums1, test.ans) {
 			t.Errorf("failure nums1 %v m %d nums2 %v n %d ans %v",
 				test.nums1, test.m, test.nums2, test.n, test.ans)
 		}

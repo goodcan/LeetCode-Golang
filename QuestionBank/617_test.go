@@ -8,7 +8,6 @@
 package QuestionBank
 
 import (
-	"LeetCode-Golang/utils"
 	"testing"
 )
 
@@ -26,7 +25,7 @@ func Test_617(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if !utils.SliceEqual(Tree2Slice(mergeTrees(test.t1, test.t2)), Tree2Slice(test.ans)) {
+		if !TreeEqual(mergeTrees(test.t1, test.t2), test.ans) {
 			t.Errorf("faiulre t1 %v t2 %v ans %v", test.t1, test.t2, test.ans)
 		}
 	}

@@ -26,7 +26,7 @@ func Test_167(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if !utils.IntSliceEqual(twoSum167(test.numbers, test.target), test.ans) {
+		if !utils.SliceEqual(twoSum167(test.numbers, test.target), test.ans) {
 			t.Errorf("failure numbers %v target %d ans %v",
 				test.numbers, test.target, test.ans)
 		}

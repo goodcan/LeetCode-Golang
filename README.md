@@ -55,6 +55,7 @@
 1161 [最大层内元素和](./QuestionBank/1161.go)  
 1185 [一周中的第几天](./QuestionBank/1185.go)  
 1189 [“气球” 的最大数量](./QuestionBank/1189.go)  
+5205 [独一无二的出现次数](./QuestionBank/5205.go)  
 LCP 1 [猜数字](./QuestionBank/LCP1.go)  
 
 ## 声明

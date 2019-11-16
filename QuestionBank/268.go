@@ -1,7 +1,7 @@
 /*
  * @Time     : 2019-07-30 23:38
  * @Author   : cancan
- * @File     : 268.py
+ * @File     : 268.go
  * @Function : 缺失数字
  */
 

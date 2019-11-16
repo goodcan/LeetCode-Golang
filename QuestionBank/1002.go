@@ -1,7 +1,7 @@
 /*
  * @Time     : 2019-06-23 14:06
  * @Author   : cancan
- * @File     : 1002.py
+ * @File     : 1002.go
  * @Function : 查找常用字符
  */
 

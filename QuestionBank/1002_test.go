@@ -1,6 +1,6 @@
 // @Time     : 2019-06-23 14:12
 // @Author   : cancan
-// @File     : 1002_test.py
+// @File     : 1002_test.go
 // @Function :
 
 package QuestionBank

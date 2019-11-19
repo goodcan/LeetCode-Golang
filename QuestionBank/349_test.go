@@ -23,7 +23,7 @@ func Test_349(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if utils.SliceEqual(intersection(test.nums1, test.nums2), test.ans) {
+		if !utils.SliceEqual(intersection(test.nums1, test.nums2), test.ans) {
 			t.Errorf("failure nums1 %v nums2 %v ans %v", test.nums1, test.nums2, test.ans)
 		}
 	}

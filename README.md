@@ -25,6 +25,7 @@
 125 [验证回文串](./QuestionBank/125.go)  
 136 [只出现一次的数字](./QuestionBank/136.go)  
 137 [只出现一次的数字 II](./QuestionBank/137.go)  
+142 [环形链表 II](./QuestionBank/142.go)  
 144 [二叉树的前序遍历](./QuestionBank/144.go)  
 145 [二叉树的后序遍历](./QuestionBank/145.go)  
 167 [两数之和 II - 输入有序数组](./QuestionBank/167.go)  

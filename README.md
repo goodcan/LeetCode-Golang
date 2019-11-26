@@ -47,6 +47,7 @@
 617 [合并二叉树](./QuestionBank/617.go)  
 674 [最长连续递增序列](./QuestionBank/674.go)  
 706 [设计哈希映射](./QuestionBank/706.go)  
+707 [设计链表](./QuestionBank/707.go)  
 739 [每日温度](./QuestionBank/739.go)  
 771 [宝石与石头](./QuestionBank/771.go)  
 811 [子域名访问计数](./QuestionBank/811.go)  

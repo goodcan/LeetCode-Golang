@@ -20,7 +20,7 @@ func Test_704(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if search(test.nums, test.target) != test.ans {
+		if search704(test.nums, test.target) != test.ans {
 			t.Errorf("failure nums %v target %d ans %d", test.nums, test.target, test.ans)
 		}
 	}

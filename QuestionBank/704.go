@@ -28,7 +28,7 @@
 
 package QuestionBank
 
-func search(nums []int, target int) int {
+func search704(nums []int, target int) int {
 	left := 0
 	right := len(nums) - 1
 	for left <= right {

@@ -47,6 +47,7 @@
 537 [复数乘法](./QuestionBank/537.go)  
 617 [合并二叉树](./QuestionBank/617.go)  
 674 [最长连续递增序列](./QuestionBank/674.go)  
+704 [二分查找](./QuestionBank/704.go)  
 706 [设计哈希映射](./QuestionBank/706.go)  
 707 [设计链表](./QuestionBank/707.go)  
 739 [每日温度](./QuestionBank/739.go)  

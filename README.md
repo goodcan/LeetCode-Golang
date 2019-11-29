@@ -13,6 +13,7 @@
 26 [删除排序数组中的重复项](./QuestionBank/28.go)  
 27 [移除元素](./QuestionBank/27.go)  
 33 [搜索旋转排序数组](./QuestionBank/33.go)  
+34 [在排序数组中查找元素的第一个和最后一个位置](./QuestionBank/34.go)  
 43 [字符串相乘](./QuestionBank/43.go)  
 50 [Pow(x, n)](./QuestionBank/50.go)  
 58 [最后一个单词的长度](./QuestionBank/58.go)  

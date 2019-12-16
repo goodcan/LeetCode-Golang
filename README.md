@@ -40,6 +40,7 @@
 203 [移除链表元素](./QuestionBank/203.go)  
 206 [反转链表](./QuestionBank/206.go)  
 215 [数组中的第K个最大元素](./QuestionBank/215.go)  
+230 [二叉搜索树中第K小的元素](./QuestionBank/230.go)  
 232 [用栈实现队列](./QuestionBank/232.go)  
 260 [只出现一次的数字 III](./QuestionBank/260.go)  
 268 [缺失数字](./QuestionBank/268.go)  

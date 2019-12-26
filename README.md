@@ -9,6 +9,7 @@
 2 [两数相加](./QuestionBank/2.go)  
 3 [无重复字符的最长子串](./QuestionBank/3.go)  
 4 [寻找两个有序数组的中位数](./QuestionBank/4.go)  
+6 [Z 字形变换](./QuestionBank/6.go)  
 9 [回文数](./QuestionBank/9.go)  
 26 [删除排序数组中的重复项](./QuestionBank/28.go)  
 27 [移除元素](./QuestionBank/27.go)  

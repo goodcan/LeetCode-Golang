@@ -76,6 +76,7 @@
 1207 [独一无二的出现次数](./QuestionBank/1207.go)  
 1213 [三个有序数组的交集](./QuestionBank/1213.go)  
 1249 [移除无效的括号](./QuestionBank/1249.go)  
+1365 [有多少小于当前数字的数字](./QuestionBank/1365.go)  
 LCP 1 [猜数字](./QuestionBank/LCP1.go)  
 
 ## 面试题

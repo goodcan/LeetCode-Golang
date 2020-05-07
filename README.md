@@ -52,6 +52,7 @@
 442 [数组中重复的数据](./QuestionBank/442.go)  
 509 [斐波那契数](./QuestionBank/509.go)  
 537 [复数乘法](./QuestionBank/537.go)  
+572 [另一个树的子树](./QuestionBank/572.go)  
 617 [合并二叉树](./QuestionBank/617.go)  
 658 [找到 K 个最接近的元素](./QuestionBank/658.go)  
 674 [最长连续递增序列](./QuestionBank/674.go)  

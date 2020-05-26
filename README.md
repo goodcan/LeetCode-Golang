@@ -52,6 +52,7 @@
 232 [用栈实现队列](./QuestionBank/232.go)  
 236 [二叉树的最近公共祖先](./QuestionBank/236.go)  
 260 [只出现一次的数字 III](./QuestionBank/260.go)  
+287 [寻找重复数](./QuestionBank/287.go)  
 268 [缺失数字](./QuestionBank/268.go)  
 283 [移动零](./QuestionBank/283.go)  
 328 [奇偶链表](./QuestionBank/328.go)  

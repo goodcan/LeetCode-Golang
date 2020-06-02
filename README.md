@@ -95,6 +95,7 @@ LCP 1 [猜数字](./QuestionBank/LCP1.go)
 ## 面试题
 
 01.01 [判定字符是否唯一](./interviewQuestion/01_01.go)
+64 [求1+2+…+n](./interviewQuestion/64.go)
 
 ## 声明
 代码仅供参考，如有不恰当、不正确的地方，欢迎批评指正，谢谢……

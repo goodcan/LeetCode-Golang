@@ -90,8 +90,8 @@
 1213 [三个有序数组的交集](./QuestionBank/1213.go)  
 1249 [移除无效的括号](./QuestionBank/1249.go)  
 1365 [有多少小于当前数字的数字](./QuestionBank/1365.go)  
+1480 [一维数组的动态和](./QuestionBank/1480.go)  
 1512 [好数对的数目](./QuestionBank/1512.go)  
-1512 [一维数组的动态和](./QuestionBank/1480.go)  
 LCP 1 [猜数字](./QuestionBank/LCP1.go)  
 
 ## 面试题

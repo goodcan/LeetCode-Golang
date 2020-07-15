@@ -90,6 +90,7 @@
 1213 [三个有序数组的交集](./QuestionBank/1213.go)  
 1249 [移除无效的括号](./QuestionBank/1249.go)  
 1365 [有多少小于当前数字的数字](./QuestionBank/1365.go)  
+1431 [拥有最多糖果的孩子](./QuestionBank/1431.go)  
 1470 [重新排列数组](./QuestionBank/1470.go)  
 1480 [一维数组的动态和](./QuestionBank/1480.go)  
 1486 [数组异或操作](./QuestionBank/1486.go)  

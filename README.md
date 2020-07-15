@@ -92,6 +92,7 @@
 1365 [有多少小于当前数字的数字](./QuestionBank/1365.go)  
 1470 [重新排列数组](./QuestionBank/1470.go)  
 1480 [一维数组的动态和](./QuestionBank/1480.go)  
+1486 [数组异或操作](./QuestionBank/1486.go)  
 1512 [好数对的数目](./QuestionBank/1512.go)  
 LCP 1 [猜数字](./QuestionBank/LCP1.go)  
 

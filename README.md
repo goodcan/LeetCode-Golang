@@ -72,6 +72,7 @@
 707 [设计链表](./QuestionBank/707.go)  
 739 [每日温度](./QuestionBank/739.go)  
 771 [宝石与石头](./QuestionBank/771.go)  
+796 [旋转字符串](./QuestionBank/796.go)  
 811 [子域名访问计数](./QuestionBank/811.go)  
 876 [链表的中间结点](./QuestionBank/876.go)  
 897 [递增顺序查找树](./QuestionBank/897.go)  

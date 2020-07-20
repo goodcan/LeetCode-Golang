@@ -90,6 +90,7 @@
 1207 [独一无二的出现次数](./QuestionBank/1207.go)  
 1213 [三个有序数组的交集](./QuestionBank/1213.go)  
 1249 [移除无效的括号](./QuestionBank/1249.go)  
+1281 [整数的各位积和之差](./QuestionBank/1281.go)  
 1295 [统计位数为偶数的数字](./QuestionBank/1295.go)  
 1365 [有多少小于当前数字的数字](./QuestionBank/1365.go)  
 1431 [拥有最多糖果的孩子](./QuestionBank/1431.go)  

@@ -92,6 +92,7 @@
 1249 [移除无效的括号](./QuestionBank/1249.go)  
 1281 [整数的各位积和之差](./QuestionBank/1281.go)  
 1295 [统计位数为偶数的数字](./QuestionBank/1295.go)  
+1313 [解压缩编码列表](./QuestionBank/1313.go)  
 1342 [将数字变成 0 的操作次数](./QuestionBank/1342.go)  
 1365 [有多少小于当前数字的数字](./QuestionBank/1365.go)  
 1431 [拥有最多糖果的孩子](./QuestionBank/1431.go)  

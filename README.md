@@ -58,6 +58,7 @@
 328 [奇偶链表](./QuestionBank/328.go)  
 344 [反转字符串](./QuestionBank/344.go)  
 349 [两个数组的交集](./QuestionBank/349.go)  
+392 [判断子序列](./QuestionBank/392.go)  
 442 [数组中重复的数据](./QuestionBank/442.go)  
 509 [斐波那契数](./QuestionBank/509.go)  
 537 [复数乘法](./QuestionBank/537.go)  

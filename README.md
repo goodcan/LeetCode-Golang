@@ -60,6 +60,7 @@
 283 [移动零](./QuestionBank/283.go)  
 328 [奇偶链表](./QuestionBank/328.go)  
 344 [反转字符串](./QuestionBank/344.go)  
+347 [前 K 个高频元素](./QuestionBank/347.go)  
 349 [两个数组的交集](./QuestionBank/349.go)  
 392 [判断子序列](./QuestionBank/392.go)  
 442 [数组中重复的数据](./QuestionBank/442.go)  

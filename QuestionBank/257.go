@@ -30,10 +30,10 @@ import (
 )
 
 func binaryTreePaths(root *TreeNode) []string {
-	return dfs(root, []string{})
+	return binaryTreePathsDfs(root, []string{})
 }
 
-func dfs(node *TreeNode, l []string) []string {
+func binaryTreePathsDfs(node *TreeNode, l []string) []string {
 	if node == nil {
 		return []string{}
 	}
@@ -44,11 +44,11 @@ func dfs(node *TreeNode, l []string) []string {
 
 	ret := []string{}
 	if node.Left != nil {
-		ret = append(ret, dfs(node.Left, l)...)
+		ret = append(ret, binaryTreePathsDfs(node.Left, l)...)
 	}
 
 	if node.Right != nil {
-		ret = append(ret, dfs(node.Right, l)...)
+		ret = append(ret, binaryTreePathsDfs(node.Right, l)...)
 	}
 
 	return ret

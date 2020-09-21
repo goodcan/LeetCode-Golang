@@ -69,6 +69,7 @@
 347 [前 K 个高频元素](./QuestionBank/347.go)  
 349 [两个数组的交集](./QuestionBank/349.go)  
 392 [判断子序列](./QuestionBank/392.go)  
+404 [左叶子之和](./QuestionBank/404.go)  
 442 [数组中重复的数据](./QuestionBank/442.go)  
 509 [斐波那契数](./QuestionBank/509.go)  
 537 [复数乘法](./QuestionBank/537.go)  

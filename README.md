@@ -71,6 +71,7 @@
 392 [判断子序列](./QuestionBank/392.go)  
 404 [左叶子之和](./QuestionBank/404.go)  
 442 [数组中重复的数据](./QuestionBank/442.go)  
+501 [二叉搜索树中的众数](./QuestionBank/501.go)  
 509 [斐波那契数](./QuestionBank/509.go)  
 537 [复数乘法](./QuestionBank/537.go)  
 538 [把二叉搜索树转换为累加树](./QuestionBank/538.go)  

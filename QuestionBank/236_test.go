@@ -31,7 +31,7 @@ func Test_236(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if !TreeEqual(lowestCommonAncestor(test.root, test.p, test.q), test.ans) {
+		if !TreeEqual(lowestCommonAncestor236(test.root, test.p, test.q), test.ans) {
 			t.Errorf("failure root %v p %v q %v ans %v", test.root, test.p, test.q, test.ans)
 		}
 	}

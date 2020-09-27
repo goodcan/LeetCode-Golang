@@ -36,15 +36,15 @@
 
 package QuestionBank
 
-func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
+func lowestCommonAncestor236(root, p, q *TreeNode) *TreeNode {
 	if root == nil {
 		return nil
 	}
 	if root.Val == p.Val || root.Val == q.Val {
 		return root
 	}
-	left := lowestCommonAncestor(root.Left, p, q)
-	right := lowestCommonAncestor(root.Right, p, q)
+	left := lowestCommonAncestor236(root.Left, p, q)
+	right := lowestCommonAncestor236(root.Right, p, q)
 
 	if left != nil && right != nil {
 		return root

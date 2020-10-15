@@ -108,3 +108,11 @@ func Tree2Slice(root *TreeNode) []int {
 func TreeEqual(t1, t2 *TreeNode) bool {
 	return utils.SliceEqual(Tree2Slice(t1), Tree2Slice(t2))
 }
+
+// Node.
+type Node struct {
+	Val   int
+	Left  *Node
+	Right *Node
+	Next  *Node
+}

@@ -54,6 +54,7 @@ func validMountainArray(A []int) bool {
 		}
 	}
 
+	// 没有上升或者只有上升返回 false
 	if count1 == 0 || flag == 1 {
 		return false
 	}

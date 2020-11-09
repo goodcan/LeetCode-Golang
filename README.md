@@ -97,6 +97,7 @@
 897 [递增顺序查找树](./QuestionBank/897.go)  
 925 [长按键入](./QuestionBank/925.go)  
 941 [有效的山脉数组](./QuestionBank/941.go)  
+973 [最接近原点的 K 个点](./QuestionBank/973.go)  
 974 [和可被 K 整除的子数组](./QuestionBank/974.go)  
 1002 [查找常用字符](./QuestionBank/1002.go)  
 1006 [笨阶乘](./QuestionBank/1006.go)  

@@ -45,6 +45,7 @@
 144 [二叉树的前序遍历](./QuestionBank/144.go)  
 145 [二叉树的后序遍历](./QuestionBank/145.go)  
 146 [LRU缓存机制](./QuestionBank/146.go)  
+148 [排序链表](./QuestionBank/148.go)  
 152 [乘积最大子序列](./QuestionBank/152.go)  
 153 [寻找旋转排序数组中的最小值](./QuestionBank/153.go)  
 155 [最小栈](./QuestionBank/155.go)  

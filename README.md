@@ -130,6 +130,7 @@
 1512 [好数对的数目](./QuestionBank/1512.go)  
 1603 [设计停车系统](./QuestionBank/1603.go)  
 1614 [括号的最大嵌套深度](./QuestionBank/1614.go)  
+1662 [检查两个字符串数组是否相等](./QuestionBank/1662.go)  
 1672 [括号的最大嵌套深度](./QuestionBank/1672.go)  
 LCP 1 [猜数字](./QuestionBank/LCP1.go)  
 

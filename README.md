@@ -130,6 +130,7 @@
 1480 [一维数组的动态和](./QuestionBank/1480.go)  
 1486 [数组异或操作](./QuestionBank/1486.go)  
 1512 [好数对的数目](./QuestionBank/1512.go)  
+1572 [矩阵对角线元素的和](./QuestionBank/1572.go)  
 1603 [设计停车系统](./QuestionBank/1603.go)  
 1614 [括号的最大嵌套深度](./QuestionBank/1614.go)  
 1662 [检查两个字符串数组是否相等](./QuestionBank/1662.go)  

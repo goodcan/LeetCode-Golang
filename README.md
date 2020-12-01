@@ -128,6 +128,7 @@
 1480 [一维数组的动态和](./QuestionBank/1480.go)  
 1486 [数组异或操作](./QuestionBank/1486.go)  
 1512 [好数对的数目](./QuestionBank/1512.go)  
+1603 [设计停车系统](./QuestionBank/1603.go)  
 1614 [括号的最大嵌套深度](./QuestionBank/1614.go)  
 1672 [括号的最大嵌套深度](./QuestionBank/1672.go)  
 LCP 1 [猜数字](./QuestionBank/LCP1.go)  

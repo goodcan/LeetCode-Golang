@@ -123,6 +123,7 @@
 1342 [将数字变成 0 的操作次数](./QuestionBank/1342.go)  
 1356 [根据数字二进制下 1 的数目排序](./QuestionBank/1356.go)
 1365 [有多少小于当前数字的数字](./QuestionBank/1365.go)  
+1389 [按既定顺序创建目标数组](./QuestionBank/1389.go)  
 1431 [拥有最多糖果的孩子](./QuestionBank/1431.go)  
 1470 [重新排列数组](./QuestionBank/1470.go)  
 1480 [一维数组的动态和](./QuestionBank/1480.go)  

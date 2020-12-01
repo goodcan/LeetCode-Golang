@@ -25,7 +25,7 @@
 
 package QuestionBank
 
-func maxDepth(root *TreeNode) int {
+func maxDepth104(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}

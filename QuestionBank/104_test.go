@@ -18,7 +18,7 @@ func Test_104(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		if maxDepth(test.root) != test.ans {
+		if maxDepth104(test.root) != test.ans {
 			t.Errorf("failure %+v", test)
 		}
 	}

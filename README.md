@@ -1,8 +1,9 @@
 # LeetCode 习题记录
+
 > 解题语言：Golang
 
-
 ## 题库
+
 > 编号对应 LeetCode 题号
 
 1 [两数之和](./QuestionBank/1.go)  
@@ -37,6 +38,7 @@
 104 [二叉树的最大深度](./QuestionBank/104.go)  
 107 [二叉树的层次遍历 II](./QuestionBank/107.go)  
 116 [填充同一层的兄弟节点](./QuestionBank/116.go)  
+118 [杨辉三角](./QuestionBank/118.go)  
 125 [验证回文串](./QuestionBank/125.go)  
 136 [只出现一次的数字](./QuestionBank/136.go)  
 137 [只出现一次的数字 II](./QuestionBank/137.go)  
@@ -135,7 +137,7 @@
 1614 [括号的最大嵌套深度](./QuestionBank/1614.go)  
 1662 [检查两个字符串数组是否相等](./QuestionBank/1662.go)  
 1672 [括号的最大嵌套深度](./QuestionBank/1672.go)  
-LCP 1 [猜数字](./QuestionBank/LCP1.go)  
+LCP 1 [猜数字](./QuestionBank/LCP1.go)
 
 ## 面试题
 
@@ -145,4 +147,5 @@ LCP 1 [猜数字](./QuestionBank/LCP1.go)
 64 [求1+2+…+n](./interviewQuestion/64.go)
 
 ## 声明
+
 代码仅供参考，如有不恰当、不正确的地方，欢迎批评指正，谢谢……

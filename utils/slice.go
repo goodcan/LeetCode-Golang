@@ -35,9 +35,13 @@ func SliceEqual(a, b interface{}) bool {
 		switch e1.Interface().(type) {
 		case []int:
 			isSlice1 = true
+		case []string:
+			isSlice1 = true
 		}
 		switch e2.Interface().(type) {
 		case []int:
+			isSlice2 = true
+		case []string:
 			isSlice2 = true
 		}
 		if isSlice1 && isSlice2 {

@@ -30,12 +30,11 @@ import "sort"
 
 func lastStoneWeight(stones []int) int {
 	for len(stones) > 1 {
-		sort.Ints(stones)
-		l := len(stones)
-		if stones[l-1] == stones[l-2] {
-			stones = append([]int{}, stones[:l-2]...)
+		sort.Sort(sort.Reverse(sort.IntSlice(stones)))
+		if stones[0] == stones[1] {
+			stones = append([]int{}, stones[2:]...)
 		} else {
-			stones = append(stones[:l-2], stones[l-1]-stones[l-2])
+			stones = append(stones[2:], stones[0]-stones[1])
 		}
 	}
 

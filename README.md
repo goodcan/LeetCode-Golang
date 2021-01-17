@@ -124,6 +124,7 @@
 1189 [“气球” 的最大数量](./QuestionBank/1189.go)  
 1207 [独一无二的出现次数](./QuestionBank/1207.go)  
 1213 [三个有序数组的交集](./QuestionBank/1213.go)  
+1232 [缀点成线](./QuestionBank/1232.go)  
 1249 [移除无效的括号](./QuestionBank/1249.go)  
 1266 [访问所有点的最小时间](./QuestionBank/1266.go)  
 1281 [整数的各位积和之差](./QuestionBank/1281.go)  

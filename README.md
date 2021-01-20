@@ -89,6 +89,7 @@
 560 [和为K的子数组](./QuestionBank/560.go)  
 572 [另一个树的子树](./QuestionBank/572.go)  
 617 [合并二叉树](./QuestionBank/617.go)  
+628 [三个数的最大乘积](./QuestionBank/628.go)  
 637 [二叉树的层平均值](./QuestionBank/637.go)  
 658 [找到 K 个最接近的元素](./QuestionBank/658.go)  
 674 [最长连续递增序列](./QuestionBank/674.go)  

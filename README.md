@@ -97,6 +97,7 @@
 704 [二分查找](./QuestionBank/704.go)  
 706 [设计哈希映射](./QuestionBank/706.go)  
 707 [设计链表](./QuestionBank/707.go)  
+724 [寻找数组的中心索引](./QuestionBank/724.go)  
 739 [每日温度](./QuestionBank/739.go)  
 771 [宝石与石头](./QuestionBank/771.go)  
 783 [二叉搜索树节点最小距离](./QuestionBank/783.go)  

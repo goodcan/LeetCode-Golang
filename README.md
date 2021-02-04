@@ -91,6 +91,7 @@
 617 [合并二叉树](./QuestionBank/617.go)  
 628 [三个数的最大乘积](./QuestionBank/628.go)  
 637 [二叉树的层平均值](./QuestionBank/637.go)  
+643 [子数组最大平均数 I](./QuestionBank/643.go)  
 658 [找到 K 个最接近的元素](./QuestionBank/658.go)  
 674 [最长连续递增序列](./QuestionBank/674.go)  
 680 [验证回文字符串 Ⅱ](./QuestionBank/680.go)  

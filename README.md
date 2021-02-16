@@ -137,7 +137,7 @@
 1295 [统计位数为偶数的数字](./QuestionBank/1295.go)  
 1313 [解压缩编码列表](./QuestionBank/1313.go)  
 1342 [将数字变成 0 的操作次数](./QuestionBank/1342.go)  
-1356 [根据数字二进制下 1 的数目排序](./QuestionBank/1356.go)
+1356 [根据数字二进制下 1 的数目排序](./QuestionBank/1356.go)  
 1365 [有多少小于当前数字的数字](./QuestionBank/1365.go)  
 1389 [按既定顺序创建目标数组](./QuestionBank/1389.go)  
 1431 [拥有最多糖果的孩子](./QuestionBank/1431.go)  
@@ -150,14 +150,14 @@
 1614 [括号的最大嵌套深度](./QuestionBank/1614.go)  
 1662 [检查两个字符串数组是否相等](./QuestionBank/1662.go)  
 1672 [括号的最大嵌套深度](./QuestionBank/1672.go)  
-LCP 1 [猜数字](./QuestionBank/LCP1.go)
+LCP 1 [猜数字](./QuestionBank/LCP1.go)  
 
 ## 面试题
 
-01.01 [判定字符是否唯一](./interviewQuestion/01_01.go)
-16.01 [交换数字](./interviewQuestion/16_01.go)
-02.05 [链表求和](./interviewQuestion/02_05.go)
-64 [求1+2+…+n](./interviewQuestion/64.go)
+01.01 [判定字符是否唯一](./interviewQuestion/01_01.go)  
+16.01 [交换数字](./interviewQuestion/16_01.go)  
+02.05 [链表求和](./interviewQuestion/02_05.go)  
+64 [求1+2+…+n](./interviewQuestion/64.go)  
 
 ## 声明
 

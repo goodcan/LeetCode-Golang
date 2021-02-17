@@ -89,6 +89,7 @@
 538 [把二叉搜索树转换为累加树](./QuestionBank/538.go)<br>
 560 [和为K的子数组](./QuestionBank/560.go)<br>
 561 [数组拆分 I](./QuestionBank/561.go)<br>
+566 [重塑矩阵](./QuestionBank/566.go)<br>
 572 [另一个树的子树](./QuestionBank/572.go)<br>
 617 [合并二叉树](./QuestionBank/617.go)<br>
 628 [三个数的最大乘积](./QuestionBank/628.go)<br>

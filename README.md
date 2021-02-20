@@ -151,7 +151,6 @@
 1614 [括号的最大嵌套深度](./QuestionBank/1614.go)<br>
 1662 [检查两个字符串数组是否相等](./QuestionBank/1662.go)<br>
 1672 [括号的最大嵌套深度](./QuestionBank/1672.go)<br>
-LCP 1 [猜数字](./QuestionBank/LCP1.go)<br>
 
 ## 面试题
 
@@ -159,6 +158,10 @@ LCP 1 [猜数字](./QuestionBank/LCP1.go)<br>
 16.01 [交换数字](./interviewQuestion/16_01.go)<br>
 02.05 [链表求和](./interviewQuestion/02_05.go)<br>
 64 [求1+2+…+n](./interviewQuestion/64.go)<br>
+
+## LCP
+
+LCP 1 [猜数字](./LCP/1.go)<br>
 
 ## 声明
 

@@ -5,7 +5,7 @@
  * @Function :
  */
 
-package QuestionBank
+package LCP
 
 import "testing"
 

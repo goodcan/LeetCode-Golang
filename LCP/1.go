@@ -27,7 +27,7 @@
  * answer的元素取值为 {1, 2, 3} 之一。
  */
 
-package QuestionBank
+package LCP
 
 func game(guess []int, answer []int) int {
 	ans := 0

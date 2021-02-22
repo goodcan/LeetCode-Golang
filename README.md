@@ -104,6 +104,7 @@
 707 [设计链表](./QuestionBank/707.go)<br>
 724 [寻找数组的中心索引](./QuestionBank/724.go)<br>
 739 [每日温度](./QuestionBank/739.go)<br>
+766 [托普利茨矩阵](./QuestionBank/766.go)<br>
 771 [宝石与石头](./QuestionBank/771.go)<br>
 783 [二叉搜索树节点最小距离](./QuestionBank/783.go)<br>
 796 [旋转字符串](./QuestionBank/796.go)<br>

@@ -110,6 +110,7 @@
 796 [旋转字符串](./QuestionBank/796.go)<br>
 811 [子域名访问计数](./QuestionBank/811.go)<br>
 830 [较大分组的位置](./QuestionBank/830.go)<br>
+832 [翻转图像](./QuestionBank/832.go)<br>
 860 [柠檬水找零](./QuestionBank/860.go)<br>
 876 [链表的中间结点](./QuestionBank/876.go)<br>
 897 [递增顺序查找树](./QuestionBank/897.go)<br>

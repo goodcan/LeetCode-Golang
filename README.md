@@ -112,6 +112,7 @@
 830 [较大分组的位置](./QuestionBank/830.go)<br>
 832 [翻转图像](./QuestionBank/832.go)<br>
 860 [柠檬水找零](./QuestionBank/860.go)<br>
+867 [转置矩阵](./QuestionBank/867.go)<br>
 876 [链表的中间结点](./QuestionBank/876.go)<br>
 897 [递增顺序查找树](./QuestionBank/897.go)<br>
 925 [长按键入](./QuestionBank/925.go)<br>

@@ -154,6 +154,7 @@
 1614 [括号的最大嵌套深度](./QuestionBank/1614.go)<br>
 1662 [检查两个字符串数组是否相等](./QuestionBank/1662.go)<br>
 1672 [括号的最大嵌套深度](./QuestionBank/1672.go)<br>
+5738 [K 进制表示下的各位数字总和](./QuestionBank/5738.go)<br>
 
 ## 面试题
 

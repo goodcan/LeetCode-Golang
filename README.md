@@ -67,7 +67,8 @@
 232 [用栈实现队列](./QuestionBank/232.go)<br>
 235 [二叉搜索树的最近公共祖先](./QuestionBank/235.go)<br>
 236 [二叉树的最近公共祖先](./QuestionBank/236.go)<br>
-237 [二叉树的所有路径](./QuestionBank/257.go)<br>
+237 [删除链表的结点](./QuestionBank/237.go)<br>
+257 [二叉树的所有路径](./QuestionBank/257.go)<br>
 260 [只出现一次的数字 III](./QuestionBank/260.go)<br>
 287 [寻找重复数](./QuestionBank/287.go)<br>
 268 [缺失数字](./QuestionBank/268.go)<br>

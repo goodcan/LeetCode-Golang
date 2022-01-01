@@ -77,6 +77,7 @@
 344 [反转字符串](./QuestionBank/344.go)<br>
 347 [前 K 个高频元素](./QuestionBank/347.go)<br>
 349 [两个数组的交集](./QuestionBank/349.go)<br>
+387 [字符串中的第一个唯一字符](./QuestionBank/387.go)<br>
 389 [找不同](./QuestionBank/389.go)<br>
 392 [判断子序列](./QuestionBank/392.go)<br>
 404 [左叶子之和](./QuestionBank/404.go)<br>

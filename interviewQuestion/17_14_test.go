@@ -21,7 +21,7 @@ func Test_17_14(t *testing.T) {
 
 	for _, test := range tests {
 		if !utils.SliceEqual(smallestK(test.arr, test.k), test.ans) {
-			t.Errorf("failure %+V", test)
+			t.Errorf("failure %+v", test)
 		}
 	}
 }

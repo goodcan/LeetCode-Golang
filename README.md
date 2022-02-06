@@ -86,6 +86,7 @@
 485 [最大连续1的个数](./QuestionBank/485.go)<br>
 501 [二叉搜索树中的众数](./QuestionBank/501.go)<br>
 509 [斐波那契数](./QuestionBank/509.go)<br>
+520 [检测大写字母](./QuestionBank/520.go)<br>
 530 [二叉搜索树的最小绝对差](./QuestionBank/530.go)<br>
 537 [复数乘法](./QuestionBank/537.go)<br>
 538 [把二叉搜索树转换为累加树](./QuestionBank/538.go)<br>
